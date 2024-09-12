@@ -160,6 +160,9 @@ margin-bottom: 40px;
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .artist-card:hover, .album-card:hover {
@@ -172,13 +175,46 @@ margin-bottom: 40px;
 .artist-card img, .album-card img{
 
 width: 100%;
+max-height: 87%;
 border-radius: 50%;
 margin-bottom: 16px;
 
 }
 
+.artist-card h3, .album-card h3{
+
+font-size: 12px;
+
+}
+
+.artist-card p, .album-card p{
+
+font-size: 10px;
+color: #b7b3b6;
+
+}
 
 
+.content {
+
+    margin-top: 40px;
+}
+
+.content h2 {
+
+margin-bottom: 10px;
+
+}
+
+.banner {
+
+position: fixed;
+bottom: 0;
+right: 0;
+background: linear-gradient(90deg, #af2896, #509bf5);
+left: 0;
+
+}
 
 
 

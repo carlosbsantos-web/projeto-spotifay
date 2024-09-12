@@ -35,9 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
         artistCard.innerHTML = `
         
         <img src="${artist.image}" alt="${artist.name}">
+
+        <div>
         <h3>${artist.name}</h3>
         <p>artista</p>
 
+        </div>
+        
         `
 
         artistGrid.appendChild(artistCard)
@@ -51,8 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
         albumCard.innerHTML = `
         
         <img src="${album.image}" alt="${album.name}">
-        
+
+        <di>
+        <h3>${album.artist}</h3>
         <p>${album.name}</p>
+
+        </div>
 
         `
 

@@ -20,33 +20,35 @@ body {
 .container {
 
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .sidebar {
 
     width: 300px;
     background-color: #121212;
-    padding: 10px 10px 90px 10px;  /* teremos espaçamento interno de 24px topo, 24 direita, 90px abaixo e 24px esquerda */
+    padding: 5px 10px 90px 10px;  /* teremos espaçamento interno de 24px topo, 24 direita, 90px abaixo e 24px esquerda */
     display: flex;
     flex-direction: column;
 
 }
 
-.nav-log i {
+.nav-logo i {
 
-    font-size: 24px;
+    margin-top: 15px;
+    color: #79f03d ;
+    font-size: 14px;
 }
 
 .nav-library {
 
-    /* display: flex; */
     align-items: center;
     gap: 10px;
 }
 
-.nav-library i, .nav-library p {
+.nav-library p {
 
+    margin-top: 15px;
     color: #b7b3b6 ;
     font-size: 14px;
 }
@@ -211,10 +213,39 @@ margin-bottom: 10px;
 position: fixed;
 bottom: 0;
 right: 0;
-background: linear-gradient(90deg, #af2896, #509bf5);
 left: 0;
+background: linear-gradient(90deg, #af2896, #509bf5);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px 14px;
 
 }
+
+.banner h2 {
+
+    font-size: 14px;
+
+}
+
+.banner p {
+
+    font-size: 10px;
+
+}
+
+.banner button {
+
+    border-radius: 20px;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background: linear-gradient(#f4beea, #92bef4);
+
+}
+
+
 
 
 
